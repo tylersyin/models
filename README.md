@@ -31,6 +31,8 @@ curl https://api.portkey.ai/model-configs/pricing/anthropic/claude-3-5-sonnet-20
 curl https://api.portkey.ai/model-configs/pricing/google/gemini-2.0-flash-001
 ```
 
+📖 **[Full API Documentation](https://portkey.ai/docs/product/model-catalog/portkey-models)** — Response schema, model configuration endpoints, and more.
+
 ## Pricing Unit
 
 > ⚠️ **Prices are in cents per token, not dollars.**
