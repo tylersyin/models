@@ -154,6 +154,51 @@ const costDollars = (tokens * price) / 100;
 }
 ```
 
+### Batch Pricing (`batch_config`)
+
+Batch API pricing is defined in a separate `batch_config` section at the same level as `pay_as_you_go`. Prices use a **multiplier** applied to base token prices, allowing batch pricing to automatically stay in sync with base pricing changes.
+
+| Field | Base | Multiplier | Description |
+|-------|------|------------|-------------|
+| `request_token` | `request_token` | 0.5 | Batch API input (50% of base) |
+| `response_token` | `response_token` | 0.5 | Batch API output (50% of base) |
+| `cache_read_input_token` | `cache_read_input_token` | 0.5 | Batch API cache read (50% of base) |
+
+**Schema:**
+```json
+{
+  "pricing_config": {
+    "pay_as_you_go": {
+      "request_token": { "price": 0.00025 },
+      "response_token": { "price": 0.001 }
+    },
+    "batch_config": {
+      "request_token": {
+        "base": "request_token",
+        "multiplier": 0.5
+      },
+      "response_token": {
+        "base": "response_token",
+        "multiplier": 0.5
+      }
+    }
+  }
+}
+```
+
+**Calculation:**
+```javascript
+const batchPrice = basePrice * multiplier;
+// If request_token.price = 0.00025 and multiplier = 0.5
+// Then batch request_token price = 0.000125
+```
+
+**Notes:**
+- Text models typically use `multiplier: 0.5` (50% discount)
+- Embedding models typically use `multiplier: 0.8` (20% discount)
+
+**Supported Providers:** OpenAI, Anthropic, Google (Vertex AI)
+
 ---
 
 ## Contributing

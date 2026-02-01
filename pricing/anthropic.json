@@ -96,6 +96,16 @@
         "cache_write_input_token": {
           "price": 0.000375
         }
+      },
+      "batch_config": {
+        "request_token": {
+          "base": "request_token",
+          "multiplier": 0.5
+        },
+        "response_token": {
+          "base": "response_token",
+          "multiplier": 0.5
+        }
       }
     }
   },
@@ -131,6 +141,16 @@
         },
         "cache_write_input_token": {
           "price": 0.0001
+        }
+      },
+      "batch_config": {
+        "request_token": {
+          "base": "request_token",
+          "multiplier": 0.5
+        },
+        "response_token": {
+          "base": "response_token",
+          "multiplier": 0.5
         }
       }
     }
@@ -168,6 +188,16 @@
         "cache_write_input_token": {
           "price": 0.001875
         }
+      },
+      "batch_config": {
+        "request_token": {
+          "base": "request_token",
+          "multiplier": 0.5
+        },
+        "response_token": {
+          "base": "response_token",
+          "multiplier": 0.5
+        }
       }
     }
   },
@@ -185,6 +215,16 @@
         },
         "cache_write_input_token": {
           "price": 0.001875
+        }
+      },
+      "batch_config": {
+        "request_token": {
+          "base": "request_token",
+          "multiplier": 0.5
+        },
+        "response_token": {
+          "base": "response_token",
+          "multiplier": 0.5
         }
       }
     }
@@ -222,6 +262,16 @@
         "cache_write_input_token": {
           "price": 0.00003
         }
+      },
+      "batch_config": {
+        "request_token": {
+          "base": "request_token",
+          "multiplier": 0.5
+        },
+        "response_token": {
+          "base": "response_token",
+          "multiplier": 0.5
+        }
       }
     }
   },
@@ -258,6 +308,16 @@
         "cache_read_input_token": {
           "price": 0.00003
         }
+      },
+      "batch_config": {
+        "request_token": {
+          "base": "request_token",
+          "multiplier": 0.5
+        },
+        "response_token": {
+          "base": "response_token",
+          "multiplier": 0.5
+        }
       }
     }
   },
@@ -275,6 +335,16 @@
         },
         "cache_read_input_token": {
           "price": 0.00003
+        }
+      },
+      "batch_config": {
+        "request_token": {
+          "base": "request_token",
+          "multiplier": 0.5
+        },
+        "response_token": {
+          "base": "response_token",
+          "multiplier": 0.5
         }
       }
     }
@@ -294,6 +364,16 @@
         "cache_read_input_token": {
           "price": 0.00015
         }
+      },
+      "batch_config": {
+        "request_token": {
+          "base": "request_token",
+          "multiplier": 0.5
+        },
+        "response_token": {
+          "base": "response_token",
+          "multiplier": 0.5
+        }
       }
     }
   },
@@ -311,6 +391,16 @@
         },
         "cache_read_input_token": {
           "price": 0.00015
+        }
+      },
+      "batch_config": {
+        "request_token": {
+          "base": "request_token",
+          "multiplier": 0.5
+        },
+        "response_token": {
+          "base": "response_token",
+          "multiplier": 0.5
         }
       }
     }
@@ -330,6 +420,16 @@
         "cache_read_input_token": {
           "price": 0.00003
         }
+      },
+      "batch_config": {
+        "request_token": {
+          "base": "request_token",
+          "multiplier": 0.5
+        },
+        "response_token": {
+          "base": "response_token",
+          "multiplier": 0.5
+        }
       }
     }
   },
@@ -347,6 +447,16 @@
         },
         "cache_read_input_token": {
           "price": 0.00003
+        }
+      },
+      "batch_config": {
+        "request_token": {
+          "base": "request_token",
+          "multiplier": 0.5
+        },
+        "response_token": {
+          "base": "response_token",
+          "multiplier": 0.5
         }
       }
     }
@@ -366,6 +476,16 @@
         "cache_read_input_token": {
           "price": 0.00015
         }
+      },
+      "batch_config": {
+        "request_token": {
+          "base": "request_token",
+          "multiplier": 0.5
+        },
+        "response_token": {
+          "base": "response_token",
+          "multiplier": 0.5
+        }
       }
     }
   },
@@ -383,6 +503,16 @@
         },
         "cache_read_input_token": {
           "price": 0.00015
+        }
+      },
+      "batch_config": {
+        "request_token": {
+          "base": "request_token",
+          "multiplier": 0.5
+        },
+        "response_token": {
+          "base": "response_token",
+          "multiplier": 0.5
         }
       }
     }
@@ -402,6 +532,16 @@
         "cache_read_input_token": {
           "price": 0.00015
         }
+      },
+      "batch_config": {
+        "request_token": {
+          "base": "request_token",
+          "multiplier": 0.5
+        },
+        "response_token": {
+          "base": "response_token",
+          "multiplier": 0.5
+        }
       }
     }
   },
@@ -419,6 +559,16 @@
         },
         "cache_read_input_token": {
           "price": 0.00003
+        }
+      },
+      "batch_config": {
+        "request_token": {
+          "base": "request_token",
+          "multiplier": 0.5
+        },
+        "response_token": {
+          "base": "response_token",
+          "multiplier": 0.5
         }
       }
     }
@@ -438,6 +588,16 @@
         "cache_read_input_token": {
           "price": 0.00001
         }
+      },
+      "batch_config": {
+        "request_token": {
+          "base": "request_token",
+          "multiplier": 0.5
+        },
+        "response_token": {
+          "base": "response_token",
+          "multiplier": 0.5
+        }
       }
     }
   },
@@ -455,6 +615,16 @@
         },
         "cache_read_input_token": {
           "price": 0.00005
+        }
+      },
+      "batch_config": {
+        "request_token": {
+          "base": "request_token",
+          "multiplier": 0.5
+        },
+        "response_token": {
+          "base": "response_token",
+          "multiplier": 0.5
         }
       }
     }
@@ -474,6 +644,16 @@
         "cache_read_input_token": {
           "price": 0.00005
         }
+      },
+      "batch_config": {
+        "request_token": {
+          "base": "request_token",
+          "multiplier": 0.5
+        },
+        "response_token": {
+          "base": "response_token",
+          "multiplier": 0.5
+        }
       }
     }
   },
@@ -491,6 +671,16 @@
         },
         "cache_read_input_token": {
           "price": 0.00003
+        }
+      },
+      "batch_config": {
+        "request_token": {
+          "base": "request_token",
+          "multiplier": 0.5
+        },
+        "response_token": {
+          "base": "response_token",
+          "multiplier": 0.5
         }
       }
     }
