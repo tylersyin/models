@@ -2496,7 +2496,7 @@
           "price": 0
         },
         "cache_read_input_token": {
-          "price": 5e-7
+          "price": 0.0000005
         }
       },
       "batch_config": {
@@ -2507,7 +2507,7 @@
           "price": 0.00002
         },
         "cache_read_input_token": {
-          "price": 2.5e-7
+          "price": 0.00000025
         }
       }
     }
@@ -2525,7 +2525,7 @@
           "price": 0
         },
         "cache_read_input_token": {
-          "price": 5e-7
+          "price": 0.0000005
         }
       }
     }
@@ -2623,7 +2623,7 @@
           "price": 0
         },
         "cache_read_input_token": {
-          "price": 5e-7
+          "price": 0.0000005
         }
       },
       "additional_units": {
@@ -2657,7 +2657,7 @@
           "price": 0
         },
         "cache_read_input_token": {
-          "price": 5e-7
+          "price": 0.0000005
         }
       },
       "additional_units": {
