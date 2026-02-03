@@ -156,13 +156,13 @@ const costDollars = (tokens * price) / 100;
 
 ### Batch Pricing (`batch_config`)
 
-Batch API pricing is defined in a separate `batch_config` section at the same level as `pay_as_you_go`. Prices use a **multiplier** applied to base token prices, allowing batch pricing to automatically stay in sync with base pricing changes.
+Batch API pricing is defined in a separate `batch_config` section at the same level as `pay_as_you_go`. Prices are specified as exact values matching the provider's published batch pricing.
 
-| Field | Base | Multiplier | Description |
-|-------|------|------------|-------------|
-| `request_token` | `request_token` | 0.5 | Batch API input (50% of base) |
-| `response_token` | `response_token` | 0.5 | Batch API output (50% of base) |
-| `cache_read_input_token` | `cache_read_input_token` | 0.5 | Batch API cache read (50% of base) |
+| Field | Description |
+|-------|-------------|
+| `request_token` | Batch API input price |
+| `response_token` | Batch API output price |
+| `cache_read_input_token` | Batch API cache read price |
 
 **Schema:**
 ```json
@@ -173,29 +173,16 @@ Batch API pricing is defined in a separate `batch_config` section at the same le
       "response_token": { "price": 0.001 }
     },
     "batch_config": {
-      "request_token": {
-        "base": "request_token",
-        "multiplier": 0.5
-      },
-      "response_token": {
-        "base": "response_token",
-        "multiplier": 0.5
-      }
+      "request_token": { "price": 0.000125 },
+      "response_token": { "price": 0.0005 }
     }
   }
 }
 ```
 
-**Calculation:**
-```javascript
-const batchPrice = basePrice * multiplier;
-// If request_token.price = 0.00025 and multiplier = 0.5
-// Then batch request_token price = 0.000125
-```
-
 **Notes:**
-- Text models typically use `multiplier: 0.5` (50% discount)
-- Embedding models typically use `multiplier: 0.8` (20% discount)
+- Batch prices are typically 50% of standard pricing for text models
+- Embedding models typically have 20% discount for batch
 
 **Supported Providers:** OpenAI, Anthropic, Google (Vertex AI)
 
