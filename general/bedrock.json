@@ -3314,7 +3314,7 @@
       "top_p"
     ]
   },
-  "anthropic.claude-opus-4-6-v1:0": {
+  "anthropic.claude-opus-4-6-v1": {
     "params": [
       {
         "key": "max_tokens",
@@ -3392,7 +3392,7 @@
       ]
     }
   },
-  "us.anthropic.claude-opus-4-6-v1:0": {
+  "us.anthropic.claude-opus-4-6-v1": {
     "params": [
       {
         "key": "max_tokens",
@@ -3470,7 +3470,7 @@
       ]
     }
   },
-  "eu.anthropic.claude-opus-4-6-v1:0": {
+  "eu.anthropic.claude-opus-4-6-v1": {
     "params": [
       {
         "key": "max_tokens",
