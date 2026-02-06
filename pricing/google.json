@@ -1123,9 +1123,6 @@
           },
           "image_token": {
             "price": 0.003
-          },
-          "input_image": {
-            "price": 0.0011
           }
         }
       }
@@ -1149,9 +1146,6 @@
           },
           "image_token": {
             "price": 0.003
-          },
-          "input_image": {
-            "price": 0.0011
           }
         }
       }
@@ -1490,9 +1484,6 @@
           },
           "image_token": {
             "price": 0.003
-          },
-          "input_image": {
-            "price": 0.0011
           }
         }
       }
