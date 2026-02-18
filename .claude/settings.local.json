@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C \"C:\\\\Users\\\\tyler\\\\OneDrive\\\\Documents\\\\GitHub\\\\models\" branch --show-current)",
+      "Bash(git pull:*)",
+      "Bash(git checkout:*)",
+      "Bash(python -m json.tool:*)",
+      "Bash(node -e:*)"
+    ]
+  }
+}
